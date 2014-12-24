@@ -348,16 +348,19 @@
 //##
 
 // Basics of a navbar
-@navbar-height:                    50px;
+@navbar-height:                    75px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
+@navbar-lead-height:               50px;
+@navbar-lead-padding-vertical:     ((@navbar-lead-height - @line-height-computed) / 2);
+
 @navbar-default-color:             #777;
-@navbar-default-bg:                #f8f8f8;
-@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-bg:                transparent;
+@navbar-default-border:            transparent;
 
 // Navbar links
 @navbar-default-link-color:                #777;
