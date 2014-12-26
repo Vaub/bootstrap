@@ -10,8 +10,6 @@
   <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
-  <link href="./style/style.css" rel="stylesheet">
-
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -22,7 +20,7 @@
 <body>
   <div id="wrap">
     <header>
-      <nav class="navbar navbar-inverse navbar-static-top">
+      <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -37,7 +35,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="#">ACCUEIL</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">APPLICATIONS <span class="caret" /></a>
                 <ul class="dropdown-menu" role="menu">
@@ -46,51 +44,59 @@
                   <li><a href="#">RecyclApp</a></li>
                 </ul>
               </li>
-              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">&Agrave; PROPOS</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
+        <div class="navbar-lead">
+          <div class="container">
+            <h3>Applications</h3>
+          </div>
+        </div>
       </nav>
-
     </header>
 
     <section>
 
-      <div class="container">
-        <div class="page-header text-center">
-          <h1>Vincent Aub&eacute;<small>.net</small></h1>
-        </div>
+      <div class="container grid">
         <div class="row">
-          <div class="col-md-8">
-            <p>
-              Bienvenue sur mon site laboratoire/porfolio pour me tenir &agrave; jour au sujet du web et, pourquoi pas, mettre mes projets personnels.
-            </p>
-            <h2>Comp&eacute;tences <small>Why you are here</small></h2>
-            <div>
+          <div class="col-sm-12 col-md-8">
+            <div class="panel panel-default" style="height:100%;">
+              <div class="panel-body">
+                <a class="thumbnail" style="border:none;" href="#"><img src="./images/maquette.png" /></a>
+                <h4>RTC Qu&eacute;bec pour Windows Phone</h4>
+                <p>
+                  Application officielle du RTC pour Windows Phone 8/8.1 utilisant les donn&eacute;es ouvertes du RTC.
+                </p>
+              </div>
+              <div class="panel-footer text-right">Windows Phone, C#, XAML</div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h3 class="panel-title">RTC Qu&eacute;bec 0.7.0.0</h3>
-              </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="panel panel-default" style="height:100%;">
               <div class="panel-body">
-                Cette version viendra avec Windows Phone 10... si Microsoft d&eacute;cide de mettre &agrave; jour correctement ses API!
+                <a class="thumbnail" style="border:none;" href="#"><img src="./images/recyclapp.png" /></a>
+                <h4>RecyclApp</h4>
+                <p>
+                  Projet dans le cadre du cours GLO-2004 (Genie Logiciel Oriente Objet) de l'Universite Laval.
+                </p>
               </div>
-              <div class="panel-footer text-right date">17 septembre 1994</div>
+              <div class="panel-footer text-right">Java 8, Swing</div>
             </div>
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h3 class="panel-title">Nouvelle 2.0</h3>
-              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="panel panel-default" style="height:100%;">
               <div class="panel-body">
-                Premi&egrave;re fausse nouvelle &agrave; voir le jour!
+                <a class="thumbnail" style="border:none;" href="#"><img src="./images/github.png" /></a>
+                <h4>Repos GitHub</h4>
+                <p>
+                  Divers projets, cet endroit est encore jeune!
+                </p>
               </div>
-              <div class="panel-footer text-right date">17 septembre 1994</div>
+              <div class="panel-footer text-right">Anything!</div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   </div>

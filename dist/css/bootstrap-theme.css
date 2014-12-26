@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
 }
-.navbar-default {
+.navbar {
   font-weight: bold;
 }
 .navbar-toggle {
@@ -21,14 +21,22 @@ body {
   height: 100%;
 }
 .navbar-lead {
-  min-height: 50px;
-  padding: 15px 15px;
+  padding: 0 15px;
   font-weight: normal;
   color: #fff;
-  background-color: #337ab7;
+  background-color: #0f51a3;
+}
+.navbar-lead > h1,
+.navbar-lead .h1,
+.navbar-lead h2,
+.navbar-lead .h2,
+.navbar-lead h3,
+.navbar-lead .h3 {
+  margin: 13.33333333px 0;
 }
 .dropdown-menu {
-  border-top: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .warning {
   background-color: #f0ad4e;

@@ -16,7 +16,7 @@ body
   height: 100%;
 }
 
-.navbar-default {
+.navbar {
   font-weight: bold;
 }
 
@@ -33,18 +33,21 @@ body
 }
 
 .navbar-lead {
-  min-height: @navbar-lead-height;
-
   color: #fff;
   font-weight: normal;
 
-  padding: @navbar-lead-padding-vertical @navbar-padding-horizontal;
+  padding: 0 @navbar-padding-horizontal;
 
   background-color: @brand-primary;
+
+  > h1, .h1, h2, .h2, h3, .h3
+  {
+    margin: ((@line-height-computed / 3)*2) 0;
+  }
 }
 
 .dropdown-menu {
-  border-top: none;
+  box-shadow: none;
 }
 
 .warning {

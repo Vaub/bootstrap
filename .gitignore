@@ -40,3 +40,6 @@ validation-status.json
 # Folders to ignore
 bower_components
 node_modules
+tests/images/me.JPG
+tests/images/Vancouver.jpg
+tests/images/bg.jpg
